@@ -1,7 +1,8 @@
 print("Hola mundo")
 
 
-snake_case = "hola"   # este es el metodo de escritura 
+snake_case = "hola" 
+aprendiz_sena = "laura gomez" # este es el metodo de escritura 
 
 # tipos de escritura de variables 
 
@@ -60,6 +61,6 @@ edad = int (input("Ingrese su edad: "))
 print(edad)
 
 
-# imprimir con f_string
+# imprimir con f_string simplificar y concatener texto con numeros 
 
 print(f" {nombre_completo} tiene {edad} años")

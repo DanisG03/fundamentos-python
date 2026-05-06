@@ -20,10 +20,21 @@ multiplicacion = valor_1 * valor_2
 division = valor_1 / valor_2
 
 if tipo_operacion == "1":
-    print(f"La suma es {suma}")
+    sumar = valor_1 + valor_2
+    print(f"La suma entre {valor_1} y {valor_2} es {suma}")
+    
 elif tipo_operacion == "2":
-    print(f"La resta es {resta}")
+    resta = valor_1 - valor_2
+    print(f"La resta entre {valor_1} y {valor_2} es {resta}")
+    
 elif tipo_operacion == "3":
-    print(f"La multiplicacion es {multiplicacion}")
+    multiplicacion = valor_1 * valor_2
+    print(f"La multiplicacion entre {valor_1} y {valor_2} es {multiplicacion}")
+    
 elif tipo_operacion == "4":
-    print(f"La division es {division}")
+    if valor_2 == 0:
+     resultado =valor_1 / valor_2
+    print(f"La division entre {valor_1} y {valor_2} es {division}")
+else:
+    print("Tipo de operación no válido")
+    

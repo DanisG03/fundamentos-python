@@ -35,4 +35,4 @@ print(x) # imprimir el valor de la variable x
 # walrus operator (operador morsa) introducido en Python 3.8
 # permite asignar un valor a una variable dentro de una expresión
 
-print(x := 10) # asigna 10 a x y luego imprime el valor de x 
+print(x := 10) # asigna 10 a x y luego imprime el valor de  

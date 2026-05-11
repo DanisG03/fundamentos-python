@@ -13,9 +13,29 @@ variable_float = float(input("ingrese un numero flotante: "))
 variable_1_string = input("ingrese un texto: ")
 variable_2_string = input("ingrese un texto: ")
 
-suma = variable_1_entera + variable_2_entero + variable_float
+# suma de los tres numeros
 
+suma = variable_1_entera + variable_2_entero + variable_float
 print(f"la suma de los tres numeros es {suma}")
+
+# mostras el entero mayor 
+if variable_1_entera > variable_2_entero:
+    print(f"el mayor es {variable_1_entera}")
+    
+else:
+    print(f"el mayor es {variable_2_entero}")
+
+# divicion del float  y enteros 
+residuo = variable_float % variable_1_entera
+
+if residuo !=0:
+    resultado = variable_float / variable_1_entera
+    print(f"el resultado de la division es {resultado}")
+
+# concatena por dos cadenas leidas 
+concatenacion = variable_1_string +""+ variable_2_string
+print(f"la concatenacion es {concatenacion}")
+
 
 
 #ejercicio practico 3

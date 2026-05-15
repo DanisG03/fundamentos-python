@@ -6,24 +6,17 @@
 vector1 = (1, 2, 3)
 vector2 = (-1, 0, 2)
 
-producto_escalar = (
-    vector1[0] * vector2[0] +
-    vector1[1] * vector2[1] +
-    vector1[2] * vector2[2]
-)
-
+producto_escalar =  vector1 + vector2 
 print("El producto escalar es:", producto_escalar)
 
 
 
 
-
-
+# Ejercicio 2: Menor y mayor precio de una lista
 
 
 # escribir un programa que almacena en una lista los siguientes precios, 50, 75, 46, 22,80, 65, 8 y muestre por pantalla el menor y el mayor de los precios 
 
-# Ejercicio 2: Menor y mayor precio de una lista
 
 precios = [50, 75, 46, 22, 80, 65, 8]
 
